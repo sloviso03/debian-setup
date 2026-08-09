@@ -35,10 +35,6 @@ ELEGIDOS=()
 
 mostrarMenu() {
     clear
-    echo "=========================================="
-    echo "|       ArgentOs Developer Setup         |"
-    echo "=========================================="
-    echo ""
 
     for i in "${!OPCIONES[@]}"; do
         local lenguaje="${OPCIONES[$i]}"

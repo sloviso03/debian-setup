@@ -15,11 +15,3 @@
     - Test your connection
         ssh -T git@github.com
 
-
-# Install fzf with CTRL+R keybind (argentOs already has it installed)
-    - sudo dnf install fzf
-
-    - nano ~/.bashrc
-    - Write this at the end -> '  source /usr/share/fzf/shell/key-bindings.bash  '
-    - Add alias for clear -> '  alias fzf-clear='history -c && history -w && clear'  '
-    - Reload with source ~/.bashrc

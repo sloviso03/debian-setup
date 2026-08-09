@@ -15,7 +15,7 @@ sudo apt install -y \
   wpasupplicant firmware-linux firmware-linux-nonfree nodejs npm \
   curl gir1.2-nm-1.0 gir1.2-nma-1.0 qt5ct qt6ct kde-style-breeze breeze-icon-theme \
   cups cups-client cups-bsd gtklp firefox-esr zoxide lame unrar-free obs-studio \
-  wget build-essential \
+  wget build-essential cups \
   clang cmake ninja-build pkg-config gdb lldb valgrind strace ripgrep fd-find tree jq
 
 

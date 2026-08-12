@@ -13,7 +13,7 @@ exec_always {
     gsettings set org.gnome.desktop.interface cursor-size 24
     hash dbus-update-activation-environment 2>/dev/null && \
     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
-    dbus-update-activation-environment --systemd QT_QPA_PLATFORMTHEME=qt5ct GTK_THEME
+    dbus-update-activation-environment --systemd GTK_THEME
 }
 
 exec_always autotiling
@@ -183,4 +183,4 @@ client.background       #00000000
 
 
 # AUTOSTART SERVICIOS DEL SISTEMA
-exec_always --no-startup-id systemctl --user restart xdg-desktop-portal xdg-desktop-portal-kde
+# exec_always --no-startup-id systemctl --user restart xdg-desktop-portal xdg-desktop-portal-kde

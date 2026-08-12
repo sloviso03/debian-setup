@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 declare -A LENGUAJES_MAP=(
-    ["C / C++"]="build-essential clang cmake ninja-build gdb lldb valgrind"
-    ["Rust"]="rustc cargo"
+    ["C / C++"]="build-essential clang clangd cmake ninja-build gdb lldb valgrind"
+    ["Rust"]="rustc cargo rust-analyzer"
     ["C# / .NET"]="csharp"
-    ["Go"]="golang"
+    ["Go"]="golang gopls"
     ["Node.js"]="nodejs npm"
     ["Python"]="python3 python3-pip python3-venv"
     ["Java"]="default-jdk maven gradle"
